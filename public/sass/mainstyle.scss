@@ -1,2 +1,8 @@
+// Learning project with BEM & SCSS
+	// Blocks-Elements_Modifiers
+
+@import '_elements/variables';
+@import '_elements/graphics';
 @import '_base/reset';
 @import '_base/basics';
+@import '_components/header';

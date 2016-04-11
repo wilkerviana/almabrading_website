@@ -1,0 +1,29 @@
+// Colors Variables
+$color-magenta: #ed145b;
+$color-yellow: 	#fff200;
+$color-purple: 	#702c91;
+$color-orange: 	#f7941e;
+
+//Mixin Flexbox
+@mixin flexbox {
+  -webkit-display: flex;
+     -moz-display: flex;
+      -ms-display: flex;
+          display: flex;
+}
+
+//Mixin Flex-Order
+@mixin flex-order ($order){
+  -webkit-order: $order;
+     -moz-order: $order;
+      -ms-order: $order;
+          order: $order;
+}
+
+//Mixin Flex-Wrap
+@mixin flex-wrap ($wrap){
+  -webkit-flex-wrap: $wrap;
+     -moz-flex-wrap: $wrap;
+      -ms-flex-wrap: $wrap;
+          flex-wrap: $wrap;
+}

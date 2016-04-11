@@ -1,3 +1,33 @@
 body{
-	background: yellow;
+	background-image: $color-magenta;
+	background-image: -webkit-linear-gradient(45deg, $color-orange -30%, $color-magenta -60%, $color-purple 130%);
+	background-image: -o-linear-gradient(45deg, $color-orange -30%, $color-magenta -60%, $color-purple 130%);
+	background-image: linear-gradient(45deg, $color-orange -30%, $color-magenta -60%, $color-purple 130%);
+	color: white;
+	position: relative;
+	width: 100%;
+	z-index: -999;
+}
+.container{
+	overflow: hidden;
+	position: relative;
+	width: 100%;
+}
+.flexbox{
+	@include flexbox;
+	@include flex-wrap (wrap);
+}
+.wrapper{
+	width: 100%;
+	z-index: 999;
+}
+.content{
+	margin: 0 auto;
+	width: 280px;
+	@media (min-width:768px){
+		width: 640px;
+	}
+	@media (min-width:1280px){
+		width: 1040px;
+	}
 }

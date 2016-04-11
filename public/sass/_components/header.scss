@@ -1,0 +1,26 @@
+.heading-main{
+	margin: 30px auto;
+}
+.brand_tagline{
+	list-style: none;
+}
+.brand_tagline__list{
+	color: $color-yellow;
+	text-transform: uppercase;
+}
+.heading-experience{
+	display: none;
+}
+.heading-navbar{
+	width: 100%;
+	@include flex-order(-1);
+}
+.navbar-social_list{
+	display: inline-block;
+}
+.navbar-social_link{
+	margin: 0 10px;
+}
+.heading-branding{
+	text-transform: uppercase;
+}
