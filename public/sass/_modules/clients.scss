@@ -1,0 +1,45 @@
+// Nossos Clientes
+.flexbox-clients{
+	@include flex-wrap (wrap);
+}
+.clients{
+	margin: 40px auto 120px;
+	width: 280px;
+}
+.logos-clients{
+	margin: 5px;
+	height: 90px;
+	width: 130px;
+}
+.logos-clients_image__intel{
+	margin: 0 5px;
+	width: 120px;
+}
+.logos-clients_image__joga{
+	margin: 25px 5px;
+	width: 120px;
+}
+.logos-clients_image__nivaa{
+	margin: 20px 5px;
+	width: 120px;
+}
+.logos-clients_image__1100{
+	margin: 0 15px;
+	width: 100px;
+}
+.logos-clients_image__sollo{
+	margin: 20px 5px;
+	width: 120px;
+}
+.logos-clients_image__agua{
+	margin: 15px 10px;
+	width: 110px;
+}
+.logos-clients_image__meta{
+	margin: 25px 5px;
+	width: 120px;
+}
+.logos-clients_image__frei{
+	margin: 20px 7px;
+	width: 120px;
+}

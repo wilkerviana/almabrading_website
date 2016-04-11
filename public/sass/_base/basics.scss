@@ -1,9 +1,10 @@
 body{
 	background-image: $color-magenta;
-	background-image: -webkit-linear-gradient(45deg, $color-orange -30%, $color-magenta -60%, $color-purple 130%);
-	background-image: -o-linear-gradient(45deg, $color-orange -30%, $color-magenta -60%, $color-purple 130%);
-	background-image: linear-gradient(45deg, $color-orange -30%, $color-magenta -60%, $color-purple 130%);
+	background-image: -webkit-linear-gradient(top right, $color-purple -10%, $color-magenta, $color-orange);
+	background-image: -o-linear-gradient(top right, $color-purple -10%, $color-magenta, $color-orange);
+	background-image: linear-gradient(top right, $color-purple -10%, $color-magenta, $color-orange);
 	color: white;
+	font-family: 'gotham_boldregular';
 	position: relative;
 	width: 100%;
 	z-index: -999;
@@ -15,7 +16,6 @@ body{
 }
 .flexbox{
 	@include flexbox;
-	@include flex-wrap (wrap);
 }
 .wrapper{
 	width: 100%;

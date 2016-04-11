@@ -16,4 +16,24 @@
 	left: -200px;
 	top: 70px;
 	z-index: -888;
+	.heart_blue:before{
+		content: url(../images/arts/heart_blue.png);
+		position: absolute;
+		left: -7px;
+		top: -7px;
+	}
+	.heart_red:before{
+		content: url(../images/arts/heart_red.png);
+		position: absolute;
+		left: -2px;
+		top: -2px;
+	}
+	.heart_black:before{
+		content: url(../images/arts/heart.png);
+		position: absolute;
+	}
+	@media (min-width: 768px){
+		left: 60px;
+		top: 245px;
+	}
 }
