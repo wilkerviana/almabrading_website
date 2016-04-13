@@ -1,14 +1,14 @@
-.heading-main{
+.page_header{
 	margin: 30px auto 0;
 	@media (min-width: 768px){
 		margin: 90px auto 0;
 	}
 }
-.heading-flexbox{
+.page_header__flexbox{
 	@include flex-wrap (wrap);
 }
 // Header Brand
-.heading-brand{
+.page_header__brand{
 	border: 10px solid #fff;
 	margin: 75px auto 50px;
 	height: 280px;
@@ -18,19 +18,30 @@
 		margin: -100px 0 0;
 	}
 }
-.heading-brand_logo{
+.page_header__brand__logo{
 	margin: 100px 25px 30px;
 	width: 208px;
-}
-.brand_tagline{
-	list-style: none;
 	@media (min-width: 768px){
-		margin: -90px 0 0 250px;
+		margin: 100px 0 0;
+		width: 170px;
+	}
+	span{
+		content: url(../images/brand.png);
+		@media (min-width: 768px){
+			content: url(../images/brand-md.png);
+		}
 	}
 }
-.brand_tagline__list{
+.brand__tags{
+	list-style: none;
+	@media (min-width: 768px){
+		margin: -50px 0 0 175px;
+	}
+}
+.brand__tags__list{
 	color: $color-yellow;
-	margin: 5px 0;
+	font-size: 14px;
+	margin: 3px 0;
 	text-align: center;
 	text-transform: uppercase;
 	@media (min-width: 768px){
@@ -39,7 +50,7 @@
 }
 
 // Unificamos Experiências 
-.heading-experience{
+.page_header--experience{
 	display: none;
 	@media (min-width: 768px){
 		display: block;
@@ -49,38 +60,35 @@
 		width: 300px;
 	}
 }
-.experience-titles{
-	padding: 250px 50px 0;
+.page_header__titles--experience{
+	padding: 200px 50px 0;
 	text-transform: uppercase;
 }
 
 // Header Navbar Social
-.heading-navbar{ 
+.page_header__navegation{ 
 	position: relative;
 	width: 100%;
 	@include flex-order(-1);
 }
-.navbar-social{
+.page_header__navbar{
 	position: absolute;
 	right: 0;
 }
-.navbar-social_list{
+.navbar__social{
 	display: inline-block;
 }
-.navbar-social_link{
+.navbar__link{
 	margin: 0 10px;
 }
 
 // Branding com emoção
-.heading-branding{
+.page_header--emotional{
 	text-transform: uppercase;
 	@media (min-width: 768px){
 		margin-left: 280px;
 	}
 }
-.heading-title_branding{
-
-}
-.heading-text_branding{
+.page_header__text--emotional{
 	padding: 35px 0;
 }

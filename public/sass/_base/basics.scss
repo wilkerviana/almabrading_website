@@ -1,33 +1,85 @@
 body{
 	background-image: $color-magenta;
-	background-image: -webkit-linear-gradient(top right, $color-purple -10%, $color-magenta, $color-orange);
-	background-image: -o-linear-gradient(top right, $color-purple -10%, $color-magenta, $color-orange);
-	background-image: linear-gradient(top right, $color-purple -10%, $color-magenta, $color-orange);
+	background-image: -webkit-linear-gradient(top right, $color-purple -20%, $color-magenta, $color-orange);
+	background-image: -o-linear-gradient(top right, $color-purple -20%, $color-magenta, $color-orange);
+	background-image: linear-gradient(top right, $color-purple -20%, $color-magenta, $color-orange);
 	color: white;
 	font-family: 'gotham_boldregular';
 	position: relative;
 	width: 100%;
 	z-index: -999;
 }
-.container{
+.main_page{
+	margin: 0;
+	padding: 0;
 	overflow: hidden;
-	position: relative;
 	width: 100%;
 }
-.flexbox{
+.container__flexbox{
 	@include flexbox;
 }
-.wrapper{
+.content{
+	position: relative;
 	width: 100%;
 	z-index: 999;
 }
-.content{
+.main_content{
 	margin: 0 auto;
 	width: 280px;
 	@media (min-width:768px){
-		width: 640px;
+		width: 706px;
 	}
 	@media (min-width:1280px){
 		width: 1040px;
 	}
+}
+.container{
+	width: 100%;
+}
+.box__title{
+	border: 8px solid #fff;
+	margin: 35px auto;
+	padding: 16px 0;
+	height: 240px;
+	width: 240px;
+	text-align: center;
+	@media (min-width: 768px){
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+		h3{
+			font-size: 32px;
+			text-transform: uppercase;
+		}
+	}
+}
+.title-basic{
+	color: $color-yellow;
+	padding: 25px 0 0;
+	text-transform: uppercase;
+	span{
+		font-style: italic;
+	}
+}
+
+// Footer
+
+.contact{
+	padding: 20px 0;
+}
+.infos{
+	margin: 15px auto 0;
+}
+.infos-text{
+	list-style: none;
+}
+.footing-navbar{
+	margin: 35px auto 5px;
+}
+.footing-navbar-social{
+	list-style: none;
+}
+.footing-social_list{
+	display: inline-block;
+	margin: 0 15px;
 }

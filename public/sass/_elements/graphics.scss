@@ -1,3 +1,25 @@
+@keyframes shake_red{
+	0%{left:-4px;}
+	15%{left:-5px;top: -5px;}
+	45%{left:-7px;top:-3px}
+	90%{left:-1px;}
+	100%{left:-2px;top:-2px;}
+}
+@keyframes shake_blue{
+	0%{left:1px;}
+	15%{left:6px;top: -2px;}
+	45%{left:2px;top:1px}
+	90%{left:4px;}
+	100%{left:-7px;top:-7px;}	
+}
+@keyframes shake_black{
+	0%{left:3px;}
+	15%{left:-5px;top: -2px;}
+	45%{right:2px;top:-5px}
+	70%{transform:scale(1.01);}
+	90%{left:-4px;}
+	100%{left:2px;top:-8px;}	
+}
 .codes_graph{
 	background-image: url(../images/bg_cod.png);
 	background-repeat: repeat;
@@ -21,19 +43,22 @@
 		position: absolute;
 		left: -7px;
 		top: -7px;
+		animation: shake_blue 1s infinite ease-out;
 	}
 	.heart_red:before{
 		content: url(../images/arts/heart_red.png);
 		position: absolute;
 		left: -2px;
 		top: -2px;
+		animation: shake_red 1s infinite ease-out;
 	}
 	.heart_black:before{
 		content: url(../images/arts/heart.png);
 		position: absolute;
+		animation: shake_black 1s infinite ease-out;
 	}
 	@media (min-width: 768px){
 		left: 60px;
-		top: 245px;
+		top: 275px;
 	}
 }

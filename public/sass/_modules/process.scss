@@ -1,0 +1,69 @@
+// Nossa metodologia
+.wrapper{
+	position: relative;
+	&:before{
+		content: "";
+		background: #fff;
+		position: absolute;
+		top: 0;
+		height: 4px;
+		width: 30px;
+	}
+}
+.box__title--track{
+	border: 7px solid #fff;
+	padding: 10px 0;
+	width: 100%;
+	text-align: center;
+	h3{
+		font-size: 28px;
+		margin: 0 auto;
+		width: 150px;
+	}
+}
+.summary__illustration--process{
+	margin: 35px -10px;
+	position: relative;
+	height: 215px;
+	width: 295px;
+	@media (min-width: 768px){
+		margin: 50px 75px;
+		height: 325px;
+		width: 440px;
+	}
+	span:before{
+		content: url(../images/track-cicle.png);
+		position: absolute;
+		@media (min-width: 768px){
+			content: url(../images/track-cicle_md.png);
+		}
+	}
+}
+.wrapper--process{
+	flex-direction: column;
+	@media (min-width: 768px){
+		flex-direction: row;
+	}
+	@media (min-width: 1280px){
+		flex-direction: column;
+	}
+}
+.resume__title--process{
+	color: $color-yellow;
+	margin: 35px auto;
+}
+.description--process--track{
+	margin: 35px auto;
+}
+
+.infos-contact{
+	position: relative;
+	&:before{
+		content: "";
+		background: #fff;
+		position: absolute;
+		top: 0;
+		height: 4px;
+		width: 30px;
+	}
+}

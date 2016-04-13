@@ -1,4 +1,5 @@
-*{
+div, section, article, header, main, footer, nav, ul, li, a, span, button, form, input, textarea, h1, h2, h3, h4, h5, p, picture, img, video{
 	margin: 0;
 	padding: 0;
+	box-sizing: border-box;
 }

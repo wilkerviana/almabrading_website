@@ -1,0 +1,58 @@
+.container__column--spirit{
+	display: none;
+	@media (min-width: 768px){
+		display: block;
+	}
+}
+.container__summary--spirit{
+	color: $color-yellow;
+}
+.container__flexbox--spirit{
+	flex-direction: column;
+	@media (min-width: 1280px){
+		flex-direction: row;
+		width: 400px;
+	}
+}
+.container__flexbox--spirit--type{
+	flex-direction: column;
+	margin: 0;
+	@media (min-width: 1280px){
+		@include flex-wrap (nowrap);
+		flex-direction: row;
+		width: 1000px;
+	}
+}
+.container__resume--spirit{
+	margin: 50px auto;
+	@media (min-width: 1280px){
+		width: 300px;
+	}
+}
+.resume__icon{
+	border: 5px solid #fff;
+	height: 100px;
+	width: 100px;
+}
+.resume__icon{
+	position: relative;
+	.resume__icon--branding{
+		content: url(../images/icons/essence_branding.png);
+		padding: 20px;
+	}
+
+	.resume__icon--intelligence{
+		content: url(../images/icons/essence_intelligence.png);
+		padding: 15px 20px;
+	}
+
+	.resume__icon--social{
+		content: url(../images/icons/essence_social.png);
+		padding: 18px;
+	}
+}
+.resume__brief--spirit{
+	margin: 0 50px;
+	line-height: 24px;
+	width: 410px;
+}

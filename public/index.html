@@ -5,13 +5,14 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Alma branding</title>
-	<!-- build:css css/mainstyle.min.css -->
-	<link rel="stylesheet" href="css/mainstyle.css">
+	<!-- build:css css/main.min.css -->
+	<link rel="stylesheet" href="css/main.css">
 	<!-- endbuild -->
 </head>
 <body>
-	<div class="container">
+	<div class="main_page">
 		<div class="graphics"></div>
+
 		<!-- Block for div with background pattern -->
 		<div class="codes_graph"></div>
 		<!-- /Block for div with background pattern -->
@@ -29,22 +30,26 @@
 
 
 		<!-- Main Content Wrapper -->
-		<div class="wrapper content">
+		<div class="content main_content">
 			
 			<!-- Header with brand, navbar social... -->
-			<header class="heading-main">
-				<section class="flexbox heading-flexbox">
+			<header class="page_header">
+				<section class="container__flexbox page_header__flexbox">
 					<!-- Block for Brand and Taglines -->
-					<div class="heading-brand">
-						<div class="heading-brand_logo">
-							<img src="images/brand.png" alt="Alma Branding">
+					<div class="page_header__brand">
+						<div class="page_header__brand__logo">
+							<span></span>
 						</div>
 						<!-- Brand Taglines -->
-						<div class="heading-brand_tagline">
-							<ul class="brand_tagline">
-								<li class="brand_tagline__list branding_tagline__branding">Branding</li>
-								<li class="brand_tagline__list branding_tagline__intelligence">Intelligence</li>
-								<li class="brand_tagline__list branding_tagline__social">Social</li>
+						<div class="brand__tagline">
+							<ul class="brand__tags">
+								<li class="brand__tags__list brand__tags--branding">
+									Branding
+								</li>
+								<li class="brand__tags__list brand__tags--intelligence">
+									Intelligence
+								</li>
+								<li class="brand__tags__list brand__tags--social">Social</li>
 							</ul>
 						</div>
 						<!-- /Brand Taglines -->
@@ -52,8 +57,8 @@
 					<!-- /Block for Brand and Taglines -->
 					
 					<!-- Block display Experiences -->
-					<div class="heading-experience">
-						<h2 class="experience-titles">
+					<div class="page_header--experience">
+						<h2 class="page_header__titles--experience">
 							Unificamos<br>
 							Experiências
 						</h2>
@@ -61,26 +66,26 @@
 					<!-- /Block display Experiences -->
 
 					<!-- Navbar Social Media Alma -->
-					<nav class="heading-navbar">
-						<ul class="navbar-social">
+					<nav class="page_header__navegation">
+						<ul class="page_header__navbar">
 							<!-- Navbar Social Media List -->
-							<li class="navbar-social_list list_facebook">
-								<a href="#" class="navbar-social_link link_facebook" title="Facebook" target="_blank">
+							<li class="navbar__social navbar__social--facebook">
+								<a href="#" class="navbar__link navbar__link--facebook" title="Facebook" target="_blank">
 									<img src="images/icons/_facebook.png" alt="Facebook">
 								</a>
 							</li>
-							<li class="navbar-social_list list_instagram">
-								<a href="#" class="navbar-social_link link_instagram" title="Instagram" target="_blank">
+							<li class="navbar__social navbar__social--instagram">
+								<a href="#" class="navbar__link navbar__link--instagram" title="Instagram" target="_blank">
 									<img src="images/icons/_instagram.png" alt="Instagram">
 								</a>
 							</li>
-							<li class="navbar-social_list list_twitter">
-								<a href="#" class="navbar-social_link link_twitter" title="Twitter" target="_blank">
+							<li class="navbar__social navbar__social--twitter">
+								<a href="#" class="navbar__link navbar__link--twitter" title="Twitter" target="_blank">
 									<img src="images/icons/_twitter.png" alt="Twitter">
 								</a>
 							</li>
-							<li class="navbar-social_list list_linkedin">
-								<a href="#" class="navbar-social_link link_linkedin" title="Linkedin" target="_blank">
+							<li class="navbar__social navbar__social--linkedin">
+								<a href="#" class="navbar__link navbar__link--linkedin" title="Linkedin" target="_blank">
 									<img src="images/icons/_linkedin.png" alt="Linkedin">
 								</a>
 							</li>
@@ -91,11 +96,11 @@
 				</section>
 				
 				<!-- Branding com emoção -->
-				<div class="heading-branding">
-					<h1 class="heading-title_branding">
+				<div class="page_header_branding">
+					<h1 class="page_header_branding__title">
 						Branding com emoção
 					</h1>
-					<p class="heading-text_branding">
+					<p class="page_header_branding__text">
 						Somos uma consultoria de marcas
 						que pensa, planeja e age envolvendo
 						todos os sentidos do ser humano.
@@ -105,89 +110,220 @@
 			</header>
 			<!-- /Header with brand, navbar social... -->
 			
+
 			<!-- 	******************
 						Metodologia, Produtos e Pilares
 						****************** -->
-			<main class="content-methodology">
+			<main class="container">
+				<!-- Seu mundo com mais Alma -->
+				<section class="container__column--spirit">
+					<div class="container__flexbox container__flexbox--spirit">
+						<h2 class="container__title container__title--spirit">
+							O jeito <br>de ser e fazer
+						</h2>
+						<h1 class="container__subtitle container__subtitle--spirit">
+							Seu mundo com<br>mais alma
+						</h1>
+						<p class="container__summary container__summary--spirit">
+							Acreditamos na construção de conexões entre marcas e pessoas através das experiências geradas pela sinergia entre os pilares de Branding, Intelligence e Social. 
+						</p>
+					</div>
+					<div class="container__flexbox container__flexbox--spirit--type">
+						<article class="container__flexbox container__resume--spirit resume--spirit--branding">
+							<div class="resume__icon">
+								<span class="resume__icon--branding"></span>
+							</div>
+							<div class="resume__brief resume__brief--spirit">
+								<p class="resume__brief--spirit--branding">
+									O Branding é o coração de toda a estratégia.
+									Capta a essência do seu negócio e qual o propósito da sua marca. Damos vida através de imagens, 
+									sons e sensações. 
+								</p>
+							</div>
+						</article>
+						<article class="container__flexbox container__resume--spirit resume--spirit--intelligence">
+							<div class="resume__icon">
+								<span class="resume__icon--intelligence"></span>
+							</div>
+							<div class="resume__brief resume__brief--spirit">
+								<p class="resume__brief--spirit--intelligence">
+									A divisão de inteligência é o cérebro.
+									Organiza informações, entende comportamentos através dos dados, produz pesquisas, análises
+									e busca oportunidades. 
+								</p>
+							</div>
+						</article>
+						<article class="container__flexbox container__resume--spirit resume--spirit--social">
+							<div class="resume__icon">
+								<span class="resume__icon--social"></span>
+							</div>
+							<div class="resume__brief resume__brief--spirit">
+								<p class="resume__brief--spirit--social">
+									Já o Social Media é o que dá voz à sua marca.
+									Traduz nas redes sociais o jeito de falar, interagir, conversar, e comunicar quem sua marca é
+									e pensa.
+								</p>
+							</div>
+						</article>
+					</div>
+				</section>
+				<!-- /Seu mundo com mais Alma -->
+
 				<!-- Nossa Metodologia -->
-				<section class="inwrapper inwrapper-method">
-					<h2 class="title-basic title-basic_method">
+				<section class="container__column--process wrapper">
+					<h2 class="title-basic title-basic--process">
 						<span>Nossa</span><br>
 						Metodologia
 					</h2>
-					<div class="track-method">
-						<h3 class="block-title block-title_method">
-							T.R.A.C.K.
-						</h3>
-						<div class="circle-method">
-							<img src="images/track-cicle.png" alt="T.R.A.C.K.">
+					<div class="summary--process">
+						<div class="box__title--track">
+							<h3>T.R.A.C.K.</h3>
 						</div>
-						<h3 class="track-title">
-							o T.R.A.C.K. É baseado no
-							ciclo de evolução do
-							Comportamento Humano
-						</h3>
-						<p class="track-text">
-							Assim CONSTRUIMOS conexões, sentimentos e entendemos nossos clientes e o ciclo continua... 
-						</p>
+						<div class="summary__illustration--process">
+							<span></span>
+						</div>
+						<section class="container__flexbox wrapper--process">
+							<article class="resume--process">
+								<h3 class="resume__title--process">
+									o T.R.A.C.K. É baseado no
+									ciclo de evolução do
+									Comportamento Humano
+								</h3>
+							</article>
+							<article class="description--process">
+								<p class="description--process--track">
+									Pensar, questionar, buscar respostas.
+									Criar algo novo, aprimorar, fomentar
+									o conhecimento e gerar resultados
+									práticos e aplicáveis.
+								</p>
+								<p class="description--process--track">
+									Assim CONSTRUIMOS conexões, sentimentos e entendemos nossos clientes e o ciclo continua... 
+								</p>
+							</article>
+						</section>
 					</div>
 				</section>
 				<!-- /Nossa Metodologia -->
 
 				<!-- Nossos Produtos -->
-				<section class="inwrapper inwrapper-products">
-					<h2 class="title-basic title-basic_products">
+				<section class="container container__column--products wrapper">
+					<h2 class="title-basic title-basic--products">
 						<span>Nossos</span><br>
 						Produtos
 					</h2>
 					<div class="products">
-						<h3 class="block-title">
-							Produtos<br>
-							Modu<br>
-							Lares
-						</h3>
-						<p class="products-resume">
-							Unindo o espirito das marcas, o uso da inteligência e a busca da conexão com o público, nossos módulos  conversam e se integram
-							em todos os trabalhos. 
-						</p>
-						<article class="products-description products-description_branding">
-							<h4 class="products-subtitle products-subtitle_branding">
-								Branding
-							</h4>
-								<p class="products-subtext products-subtext_branding">
-									Construção de significados e experiências unificadas através do Branding Multissensorial.
-								</p>	
-						</article>
-						<article class="products-description products-description_intelligence">
-							<h4 class="products-subtitle products-subtitle_intelligence">
-								Intelligence
-							</h4>
-								<p class="products-subtext products-subtext_intelligence">
-									Inteligência de mercado e comportamento do consumidor para geração de resultados.
+						<div class="container__flexbox container__flexbox--products">
+							<div class="box__title box__title--products">
+								<h3>
+									Produtos<br>
+									Modu<br>
+									Lares
+								</h3>
+							</div>
+							<div class="wrapper--products">
+								<h2 class="title-basic title-basic--products--md">
+									<span>Nossos</span><br>
+									Produtos		
+								</h2>
+								<p class="products-text">
+									Unindo o espirito das marcas, o uso da inteligência e a busca da conexão com o público, nossos módulos  conversam e se integram
+									em todos os trabalhos. 
 								</p>
+							</div>
+						</div>
+						<article class="description--products description--products--branding">
+							<div class="summary--products">
+								<h4 class="subtitle--products subtitle--products--branding">
+									Branding
+								</h4>
+								<p class="resume--products resume--products--branding">
+									Construção de significados e experiências unificadas através do Branding Multissensorial.
+								</p>
+							</div>
+							<ul class="list--products list--products--branding">
+								<!-- DIVE -->
+								<h4 class="list__title--products">
+									Dive
+								</h4>
+								<li class="list__option--products">
+									Imersão no universo da marca
+								</li>
+								<li class="list__option--products">
+									Estratégia de Marca
+								</li>
+								<li class="list__option--products">
+									Plataforma de Propósito
+								</li>
+								<!-- BORN TO BE BRAND -->
+								<h4 class="list__title--products">
+									Born to be brand
+								</h4>
+								<li class="list__option--products">
+									Naming
+								</li>
+								<li class="list__option--products">
+									Identidades Sensoriais
+								</li>
+								<li class="list__option--products">
+									Brand Book
+								</li>
+								<!-- Design Boosting -->
+								<h4 class="list__title--products">
+									Design Boosting
+								</h4>
+								<li class="list__option--products">
+									Planejamento de<br>Comunicação
+								</li>
+								<li class="list__option--products">
+									Design Gráfico e Digital
+								</li>
+							</ul>	
 						</article>
-						<article class="products-description products-description_social">
-							<h4 class="products-subtitle products-subtitle_social">
-								Social
+						<article class="description--products description--products--intelligence">
+							<div class="summary--products">
+								<h4 class="subtitle--products subtitle--products--intelligence">
+									Intelligence
 							</h4>
-								<p class="products-subtext products-subtext_social">
-									Construção de relacionamento
-									entre marcas e pessoas
-									conectadas por valores e objetivos.
-								</p>	
+							<p class="resume--products resume--products--intelligence">
+								Inteligência de mercado e comportamento do consumidor para geração de resultados.
+							</p>
+							</div>
+							<ul class="list--products">
+								<h4 class="list__title--products">
+									
+								</h4>
+							</ul>
+						</article>
+						<article class="description--products description--products--social">
+							<div class="summary--products">
+								<h4 class="subtitle--products subtitle--products--social">
+									Social
+							</h4>
+							<p class="resume--products resume--products--social">
+								Construção de relacionamento
+								entre marcas e pessoas
+								conectadas por valores e objetivos.
+							</p>
+							</div>
+							<ul class="list--products">
+								<h4 class="list__title--products">
+									
+								</h4>
+							</ul>	
 						</article>
 					</div>
 				</section>
 				<!-- /Nossos Produtos -->
 
 				<!-- Nossos Clientes -->
-				<section class="inwrapper inwrapper-clients">
+				<section class="wrapper wrapper-clients">
 					<h2 class="title-basic title-basic_clients">
 						<span>Nossos</span><br>
 						Clientes
 					</h2>
 					<!-- Flexbox Clients Logos -->
-					<article class="flexbox flexbox-clients clients">
+					<article class="container__flexbox flexbox-clients clients">
 							<!-- Logo Intel -->
 							<div class="logos-clients logos-clients_intel">
 								<img class="logos-clients_image__intel" src="images/logos/logo_intel.png" alt="Intel Security - McAffe">

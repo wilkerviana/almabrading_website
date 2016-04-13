@@ -1,0 +1,38 @@
+// Nossos produtos
+.container__column--products{}
+
+.products{
+	position: relative;
+}
+.container__flexbox--products{
+	flex-direction: column;
+	@media (min-width: 768px){
+		flex-direction: row;
+	}
+}
+.title-basic--products{
+	@media (min-width: 768px) {
+		display: none;	
+	}
+}
+.title-basic--products--md{
+	display: none;
+	@media (min-width: 768px){
+		display: block;
+	}
+}
+.wrapper--products{
+	margin: 35px auto;
+	@media (min-width: 768px){
+		width: 365px;
+	}
+}
+.description--products{
+	margin: 40px auto;
+}
+.subtitle--products{
+	color: $color-yellow;
+}
+.summary--products{
+	margin: 20px auto;
+}

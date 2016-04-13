@@ -5,6 +5,9 @@
 .clients{
 	margin: 40px auto 120px;
 	width: 280px;
+	@media (min-width: 768px){
+		width: 640px;
+	}
 }
 .logos-clients{
 	margin: 5px;
