@@ -40,7 +40,10 @@
 }
 .brand__tags__list{
 	color: $color-yellow;
-	font-size: 14px;
+	font-family: 'Futura Std--Bold';
+	font-size: 12px;
+	font-weight: bold;
+	font-style: normal;
 	margin: 3px 0;
 	text-align: center;
 	text-transform: uppercase;
@@ -61,6 +64,7 @@
 	}
 }
 .page_header__titles--experience{
+	font-family: 'Futura Std--Bold';
 	padding: 200px 50px 0;
 	text-transform: uppercase;
 }
@@ -89,6 +93,17 @@
 		margin-left: 280px;
 	}
 }
+.page_header__title--emotional{
+	font-family: 'Futura Std--ExtraBold';
+	font-size: 42px;
+	font-weight: 800;
+	.title--futura{
+		font-family: 'Futura Std--Light';
+		font-weight: 300;
+	}
+}
 .page_header__text--emotional{
-	padding: 35px 0;
+	font-family: 'gotham_mediumregular';
+	line-height: 21px;
+	padding: 35px 10px 35px 0;
 }

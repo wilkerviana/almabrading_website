@@ -1,4 +1,39 @@
 // Nossos Clientes
+.title-basic_clients{
+	@media (min-width: 768px){
+		position: absolute;
+		right: 100px;
+		top: 45px;
+	}
+}
+.top__clients{
+	position: relative;
+	width: 100%;
+	&:before{
+		display: none;
+		@media (min-width: 768px){
+			border: 8px solid #fff;
+			content:"";
+			display: block;
+			position: absolute;
+			left: 40px;
+			top: 60px;
+			height: 250px;
+			width: 250px;
+		}
+	}
+}
+.title__clients{
+	font-family: 'Futura Std--ExtraBold';
+	font-size: 36px;
+	position: absolute;
+	top: 100px;
+	left: 310px;
+	text-transform: uppercase;
+	.title--futurah{
+		font-family: 'Futura Std--Heavy';
+	}
+}
 .flexbox-clients{
 	@include flex-wrap (wrap);
 }
@@ -6,7 +41,8 @@
 	margin: 40px auto 120px;
 	width: 280px;
 	@media (min-width: 768px){
-		width: 640px;
+		padding: 400px 0 0;
+		width: 560px;
 	}
 }
 .logos-clients{

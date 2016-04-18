@@ -1,3 +1,4 @@
+// GOTHAM
 @font-face {
     font-family: 'gotham_bookregular';
     src: url('../fonts/fontkit-gotham/gotham_book.eot');
@@ -56,5 +57,207 @@
          url('../fonts/fontkit-gotham/gotham-medium.svg#gotham_mediumregular') format('svg');
     font-weight: normal;
     font-style: normal;
-
 }
+
+// FUTURA STD
+
+@font-face {
+    font-family: 'Futura Std';
+    src: url('../fonts/fontkit-futura/FuturaStd-CondExtraBoldObl.eot');
+    src: url('../fonts/fontkit-futura/FuturaStd-CondExtraBoldObl.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/fontkit-futura/FuturaStd-CondExtraBoldObl.woff') format('woff'),
+        url('../fonts/fontkit-futura/FuturaStd-CondExtraBoldObl.ttf') format('truetype');
+    font-weight: 800;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Futura Std--Bold';
+    src: url('../fonts/fontkit-futura/FuturaStd-Bold.eot');
+    src: url('../fonts/fontkit-futura/FuturaStd-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/fontkit-futura/FuturaStd-Bold.woff') format('woff'),
+        url('../fonts/fontkit-futura/FuturaStd-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Futura Std';
+    src: url('../fonts/fontkit-futura/FuturaStd-CondensedLightObl.eot');
+    src: url('../fonts/fontkit-futura/FuturaStd-CondensedLightObl.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/fontkit-futura/FuturaStd-CondensedLightObl.woff') format('woff'),
+        url('../fonts/fontkit-futura/FuturaStd-CondensedLightObl.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Futura Std';
+    src: url('../fonts/fontkit-futura/FuturaStd-CondensedOblique.eot');
+    src: url('../fonts/fontkit-futura/FuturaStd-CondensedOblique.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/fontkit-futura/FuturaStd-CondensedOblique.woff') format('woff'),
+        url('../fonts/fontkit-futura/FuturaStd-CondensedOblique.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Futura Std';
+    src: url('../fonts/fontkit-futura/FuturaStd-HeavyOblique.eot');
+    src: url('../fonts/fontkit-futura/FuturaStd-HeavyOblique.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/fontkit-futura/FuturaStd-HeavyOblique.woff') format('woff'),
+        url('../fonts/fontkit-futura/FuturaStd-HeavyOblique.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Futura Std';
+    src: url('../fonts/fontkit-futura/FuturaStd-BoldOblique.eot');
+    src: url('../fonts/fontkit-futura/FuturaStd-BoldOblique.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/fontkit-futura/FuturaStd-BoldOblique.woff') format('woff'),
+        url('../fonts/fontkit-futura/FuturaStd-BoldOblique.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Futura Std--Light';
+    src: url('../fonts/fontkit-futura/FuturaStd-CondensedLight.eot');
+    src: url('../fonts/fontkit-futura/FuturaStd-CondensedLight.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/fontkit-futura/FuturaStd-CondensedLight.woff') format('woff'),
+        url('../fonts/fontkit-futura/FuturaStd-CondensedLight.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Futura Std';
+    src: url('../fonts/fontkit-futura/FuturaStd-BookOblique.eot');
+    src: url('../fonts/fontkit-futura/FuturaStd-BookOblique.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/fontkit-futura/FuturaStd-BookOblique.woff') format('woff'),
+        url('../fonts/fontkit-futura/FuturaStd-BookOblique.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Futura Std--Medium';
+    src: url('../fonts/fontkit-futura/FuturaStd-Medium.eot');
+    src: url('../fonts/fontkit-futura/FuturaStd-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/fontkit-futura/FuturaStd-Medium.woff') format('woff'),
+        url('../fonts/fontkit-futura/FuturaStd-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Futura Std';
+    src: url('../fonts/fontkit-futura/FuturaStd-Book.eot');
+    src: url('../fonts/fontkit-futura/FuturaStd-Book.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/fontkit-futura/FuturaStd-Book.woff') format('woff'),
+        url('../fonts/fontkit-futura/FuturaStd-Book.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Futura Std--Condensed';
+    src: url('../fonts/fontkit-futura/FuturaStd-Condensed.eot');
+    src: url('../fonts/fontkit-futura/FuturaStd-Condensed.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/fontkit-futura/FuturaStd-Condensed.woff') format('woff'),
+        url('../fonts/fontkit-futura/FuturaStd-Condensed.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Futura Std';
+    src: url('../fonts/fontkit-futura/FuturaStd-ExtraBoldOblique.eot');
+    src: url('../fonts/fontkit-futura/FuturaStd-ExtraBoldOblique.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/fontkit-futura/FuturaStd-ExtraBoldOblique.woff') format('woff'),
+        url('../fonts/fontkit-futura/FuturaStd-ExtraBoldOblique.ttf') format('truetype');
+    font-weight: 800;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Futura Std--ExtraBold';
+    src: url('../fonts/fontkit-futura/FuturaStd-ExtraBold.eot');
+    src: url('../fonts/fontkit-futura/FuturaStd-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/fontkit-futura/FuturaStd-ExtraBold.woff') format('woff'),
+        url('../fonts/fontkit-futura/FuturaStd-ExtraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Futura Std';
+    src: url('../fonts/fontkit-futura/FuturaStd-MediumOblique.eot');
+    src: url('../fonts/fontkit-futura/FuturaStd-MediumOblique.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/fontkit-futura/FuturaStd-MediumOblique.woff') format('woff'),
+        url('../fonts/fontkit-futura/FuturaStd-MediumOblique.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Futura Std--Heavy';
+    src: url('../fonts/fontkit-futura/FuturaStd-Heavy.eot');
+    src: url('../fonts/fontkit-futura/FuturaStd-Heavy.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/fontkit-futura/FuturaStd-Heavy.woff') format('woff'),
+        url('../fonts/fontkit-futura/FuturaStd-Heavy.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Futura Std';
+    src: url('../fonts/fontkit-futura/FuturaStd-LightOblique.eot');
+    src: url('../fonts/fontkit-futura/FuturaStd-LightOblique.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/fontkit-futura/FuturaStd-LightOblique.woff') format('woff'),
+        url('../fonts/fontkit-futura/FuturaStd-LightOblique.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Futura Std';
+    src: url('../fonts/fontkit-futura/FuturaStd-Light.eot');
+    src: url('../fonts/fontkit-futura/FuturaStd-Light.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/fontkit-futura/FuturaStd-Light.woff') format('woff'),
+        url('../fonts/fontkit-futura/FuturaStd-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Futura Std--BoldCondensed';
+    src: url('../fonts/fontkit-futura/FuturaStd-CondensedBold.eot');
+    src: url('../fonts/fontkit-futura/FuturaStd-CondensedBold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/fontkit-futura/FuturaStd-CondensedBold.woff') format('woff'),
+        url('../fonts/fontkit-futura/FuturaStd-CondensedBold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Futura Std';
+    src: url('../fonts/fontkit-futura/FuturaStd-CondensedBoldObl.eot');
+    src: url('../fonts/fontkit-futura/FuturaStd-CondensedBoldObl.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/fontkit-futura/FuturaStd-CondensedBoldObl.woff') format('woff'),
+        url('../fonts/fontkit-futura/FuturaStd-CondensedBoldObl.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Futura Std';
+    src: url('../fonts/fontkit-futura/FuturaStd-CondensedExtraBd.eot');
+    src: url('../fonts/fontkit-futura/FuturaStd-CondensedExtraBd.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/fontkit-futura/FuturaStd-CondensedExtraBd.woff') format('woff'),
+        url('../fonts/fontkit-futura/FuturaStd-CondensedExtraBd.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+

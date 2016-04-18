@@ -28,10 +28,13 @@
 	position: absolute;
 	top: 0;
 	width: 100%;
-	z-index: -99;
+	z-index: -999;
 }
-.element-arts{
-
+.background-art--md{
+	display: none;
+	@media(min-width: 768px){
+		display: block;
+	}
 }
 .background-art_heart{
 	position: absolute;
@@ -60,5 +63,109 @@
 	@media (min-width: 768px){
 		left: 60px;
 		top: 275px;
+	}
+}
+
+.background-art_brain{
+	position: absolute;
+	left: 295px;
+	top: 1970px;
+	z-index: -888;
+	.brain_blue:before{
+		content: url(../images/arts/brain_blue.png);
+		position: absolute;
+		left: -7px;
+		top: -7px;
+		animation: shake_blue 1s infinite ease-out;
+	}
+	.brain_red:before{
+		content: url(../images/arts/brain_red.png);
+		position: absolute;
+		left: -2px;
+		top: -2px;
+		animation: shake_red 1s infinite ease-out;
+	}
+	.brain_black:before{
+		content: url(../images/arts/brain.png);
+		position: absolute;
+		animation: shake_black 1s infinite ease-out;
+	}
+}
+
+.background-art_eye{
+	position: absolute;
+	left: 100px;
+	top: 3050px;
+	z-index: -888;
+	.eye_blue:before{
+		content: url(../images/arts/eye_blue.png);
+		position: absolute;
+		left: -7px;
+		top: -7px;
+		animation: shake_blue 1s infinite ease-out;
+	}
+	.eye_red:before{
+		content: url(../images/arts/eye_red.png);
+		position: absolute;
+		left: -2px;
+		top: -2px;
+		animation: shake_red 1s infinite ease-out;
+	}
+	.eye_black:before{
+		content: url(../images/arts/eye.png);
+		position: absolute;
+		animation: shake_black 1s infinite ease-out;
+	}
+}
+
+.background-art_mouth{
+	position: absolute;
+	left: 230px;
+	top: 4500px;
+	z-index: -888;
+	.mouth_blue:before{
+		content: url(../images/arts/mouth_blue.png);
+		position: absolute;
+		left: -7px;
+		top: -7px;
+		animation: shake_blue 1s infinite ease-out;
+	}
+	.mouth_red:before{
+		content: url(../images/arts/mouth_red.png);
+		position: absolute;
+		left: -2px;
+		top: -2px;
+		animation: shake_red 1s infinite ease-out;
+	}
+	.mouth_black:before{
+		content: url(../images/arts/mouth.png);
+		position: absolute;
+		animation: shake_black 1s infinite ease-out;
+	}
+}
+
+.background-art_ear{
+	position: absolute;
+	right: 230px;
+	bottom: 400px;
+	z-index: -888;
+	.ear_blue:before{
+		content: url(../images/arts/ear_blue.png);
+		position: absolute;
+		left: -7px;
+		top: -7px;
+		animation: shake_blue 1s infinite ease-out;
+	}
+	.ear_red:before{
+		content: url(../images/arts/ear_red.png);
+		position: absolute;
+		left: -2px;
+		top: -2px;
+		animation: shake_red 1s infinite ease-out;
+	}
+	.ear_black:before{
+		content: url(../images/arts/ear.png);
+		position: absolute;
+		animation: shake_black 1s infinite ease-out;
 	}
 }

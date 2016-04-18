@@ -1,6 +1,9 @@
 // Nossos produtos
-.container__column--products{}
-
+.container__column--products{
+	@media (min-width: 768px){
+		margin-top: 240px;
+	}
+}
 .products{
 	position: relative;
 }
@@ -15,24 +18,97 @@
 		display: none;	
 	}
 }
+.box__title--products{
+	margin: 35px auto;
+	font-size: 32px;
+	text-transform: uppercase;
+}
+.box__titles{
+	margin: 35px auto;
+	line-height: 20px;
+	height: 165px;
+	width: 158px;
+	.title--1{
+		font-family: 'Futura Std--Condensed';
+		letter-spacing: 11px;
+	}
+	.title--2{
+		font-family: 'Futura Std--ExtraBold';
+		letter-spacing: 8px;
+	}
+	.title--3{
+		font-family: 'Open Sans', sans-serif;
+		font-style: italic;
+		font-weight: 100;
+		line-height: 20px;
+		letter-spacing: 50px;
+		text-align: right;
+	}
+	.title--4{
+		@extend .title--3;
+		padding-left: 65px;
+	}
+	@media (min-width: 768px){
+		margin: 65px auto 0;
+		line-height: 16px;
+	}
+}
 .title-basic--products--md{
 	display: none;
 	@media (min-width: 768px){
 		display: block;
-	}
-}
-.wrapper--products{
-	margin: 35px auto;
-	@media (min-width: 768px){
-		width: 365px;
+		margin: 10px 0 50px;
 	}
 }
 .description--products{
 	margin: 40px auto;
+	@media (min-width: 768px){
+		margin: 40px auto;
+		width: 650px;
+	}
+}
+.products--text{
+	font-family: 'gotham_bookregular';
+	line-height: 26px;
+}
+.resume--products{
+	font-family: 'gotham_bookregular';
+	font-size: 14px;
+	line-height: 20px;
+	margin-top: 20px;
+}
+.list--products{
+	display: none;
+	@media (min-width: 768px){
+		display: block;
+		margin: 0 10px;
+		width: 300px;
+		list-style: none;
+	}
 }
 .subtitle--products{
 	color: $color-yellow;
+	font-family: 'Futura Std--ExtraBold';
+	text-transform: uppercase;
 }
 .summary--products{
 	margin: 20px auto;
+	@media (min-width: 768px){
+		margin: 5px 0;
+		padding-right: 50px; 
+		width: 280px;
+	}
 }
+.list__title--products{
+	color: $color-yellow;
+	font-family: 'gotham_blackregular';
+	margin: 5px 0 0;
+	text-transform: uppercase;
+}
+.list__option--products{
+	font-size: 15px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	margin: 5px 0;
+}
+

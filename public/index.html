@@ -5,6 +5,9 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Alma branding</title>
+
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,300italic,300,400italic,600,600italic,700,700italic,800,800italic" rel="stylesheet" type="text/css">
+	
 	<!-- build:css css/main.min.css -->
 	<link rel="stylesheet" href="css/main.css">
 	<!-- endbuild -->
@@ -19,11 +22,32 @@
 
 		<!-- Block for divs with graphisms -->
 		<section class="element-arts">
+			<!-- Block Heart -->
 			<div class="background-art background-art_heart">
 				<span class="heart_blue"></span>
 				<span class="heart_red"></span>
 				<span class="heart_black"></span>
-				
+			</div>
+			<!-- Block Brain -->
+			<div class="background-art background-art--md background-art_brain">
+				<span class="brain_blue"></span>
+				<span class="brain_red"></span>
+				<span class="brain_black"></span>
+			</div>
+			<div class="background-art background-art--md background-art_eye">
+				<span class="eye_blue"></span>
+				<span class="eye_red"></span>
+				<span class="eye_black"></span>
+			</div>
+			<div class="background-art background-art--md background-art_mouth">
+				<span class="mouth_blue"></span>
+				<span class="mouth_red"></span>
+				<span class="mouth_black"></span>
+			</div>
+			<div class="background-art background-art--md background-art_ear">
+				<span class="ear_blue"></span>
+				<span class="ear_red"></span>
+				<span class="ear_black"></span>
 			</div>
 		</section>
 		<!-- /Block for divs with graphisms -->
@@ -96,11 +120,11 @@
 				</section>
 				
 				<!-- Branding com emoção -->
-				<div class="page_header_branding">
-					<h1 class="page_header_branding__title">
-						Branding com emoção
+				<div class="page_header--emotional">
+					<h1 class="page_header__title--emotional">
+						<span class="title--opensans">Bran</span>ding <span class="title--futura">com</span> emo<span class="title--opensans--italic">ção</span>
 					</h1>
-					<p class="page_header_branding__text">
+					<p class="page_header__text--emotional">
 						Somos uma consultoria de marcas
 						que pensa, planeja e age envolvendo
 						todos os sentidos do ser humano.
@@ -119,10 +143,15 @@
 				<section class="container__column--spirit">
 					<div class="container__flexbox container__flexbox--spirit">
 						<h2 class="container__title container__title--spirit">
-							O jeito <br>de ser e fazer
+							<span class="title--opensans--italic">O jeito</span>
+							<br>de ser e fazer
 						</h2>
 						<h1 class="container__subtitle container__subtitle--spirit">
-							Seu mundo com<br>mais alma
+							<span class="title--1">Seu Mu</span><span class="title--2">ndo</span>
+							<br>
+							<span class="title--3">com</span>
+							<span class="title--2">mais</span>
+							<span class="title--4">Alma</span>
 						</h1>
 						<p class="container__summary container__summary--spirit">
 							Acreditamos na construção de conexões entre marcas e pessoas através das experiências geradas pela sinergia entre os pilares de Branding, Intelligence e Social. 
@@ -172,17 +201,17 @@
 				<!-- Nossa Metodologia -->
 				<section class="container__column--process wrapper">
 					<h2 class="title-basic title-basic--process">
-						<span>Nossa</span><br>
+						<span class="title--opensans--italic">Nossa</span><br>
 						Metodologia
 					</h2>
 					<div class="summary--process">
 						<div class="box__title--track">
-							<h3>T.R.A.C.K.</h3>
+							<h3>T<span>.</span>R<span>.</span>A<span>.</span>C<span>.</span>K<span>.</span></h3>
 						</div>
 						<div class="summary__illustration--process">
 							<span></span>
 						</div>
-						<section class="container__flexbox wrapper--process">
+						<section class="container__flexbox container__flexbox--process wrapper--process">
 							<article class="resume--process">
 								<h3 class="resume__title--process">
 									o T.R.A.C.K. É baseado no
@@ -197,9 +226,9 @@
 									o conhecimento e gerar resultados
 									práticos e aplicáveis.
 								</p>
-								<p class="description--process--track">
+								<!-- <p class="description--process--track">
 									Assim CONSTRUIMOS conexões, sentimentos e entendemos nossos clientes e o ciclo continua... 
-								</p>
+								</p> -->
 							</article>
 						</section>
 					</div>
@@ -209,30 +238,33 @@
 				<!-- Nossos Produtos -->
 				<section class="container container__column--products wrapper">
 					<h2 class="title-basic title-basic--products">
-						<span>Nossos</span><br>
+						<span class="title--opensans--italic">Nossos</span><br>
 						Produtos
 					</h2>
 					<div class="products">
 						<div class="container__flexbox container__flexbox--products">
 							<div class="box__title box__title--products">
-								<h3>
-									Produtos<br>
-									Modu<br>
-									Lares
-								</h3>
+								<div class="box__titles">
+									<h3 class="title--1">Pilares</h3><br>
+									<h3 class="title--2">Modu</h3><br>
+									<h3 class="title--3">Lar</h3><br>
+									<h3 class="title--4">es</h3>
+								</div>
 							</div>
-							<div class="wrapper--products">
+							<div class="wrapper--md">
 								<h2 class="title-basic title-basic--products--md">
-									<span>Nossos</span><br>
+									<span class="title--opensans--italic">Nossos</span><br>
 									Produtos		
 								</h2>
-								<p class="products-text">
-									Unindo o espirito das marcas, o uso da inteligência e a busca da conexão com o público, nossos módulos  conversam e se integram
-									em todos os trabalhos. 
+								<p class="products--text">
+									Desenvolvemos ações a partir de um modelo
+									que une o espírito das marcas, inteligência
+									e conexão com o público. Cada módulo com
+									sua expertise e produtos, mas que conversam entre si e se integram em todos os trabalhos.  
 								</p>
 							</div>
 						</div>
-						<article class="description--products description--products--branding">
+						<article class="container__flexbox wrapper--md description--products description--products--branding">
 							<div class="summary--products">
 								<h4 class="subtitle--products subtitle--products--branding">
 									Branding
@@ -280,7 +312,7 @@
 								</li>
 							</ul>	
 						</article>
-						<article class="description--products description--products--intelligence">
+						<article class="container__flexbox wrapper--md description--products description--products--intelligence">
 							<div class="summary--products">
 								<h4 class="subtitle--products subtitle--products--intelligence">
 									Intelligence
@@ -289,13 +321,50 @@
 								Inteligência de mercado e comportamento do consumidor para geração de resultados.
 							</p>
 							</div>
-							<ul class="list--products">
+							<ul class="list--products list--products--intelligence">
+								<!-- BEHAVIOR -->
 								<h4 class="list__title--products">
-									
+									Be-Havior
 								</h4>
+									<li class="list__option--products">
+										Comportamento do consumidor
+									</li>
+									<li class="list__option--products">
+										Mapa de influenciadores
+									</li>
+								<!-- POSITIONING -->
+								<h4 class="list__title--products">
+									Positioning
+								</h4>
+									<li class="list__option--products">
+										Posição de mercado
+									</li>
+									<li class="list__option--products">
+										Percepção de marca
+									</li>
+								<!-- DRIVEN -->
+								<h4 class="list__title--products">
+									Driven
+								</h4>
+								<li class="list__option--products">
+									Planejamento orientado
+								</li>
+								<li class="list__option--products">
+									Negócios de impacto
+								</li>
+								<!-- TOMORROW -->
+								<h4 class="list__title--products">
+									Tomorrow
+								</h4>
+									<li class="list__option--products">
+										Pesquisa de tendências
+									</li>
+									<li class="list__option--products">
+										Cenários futuros
+									</li>
 							</ul>
 						</article>
-						<article class="description--products description--products--social">
+						<article class="container__flexbox wrapper--md description--products description--products--social">
 							<div class="summary--products">
 								<h4 class="subtitle--products subtitle--products--social">
 									Social
@@ -306,11 +375,44 @@
 								conectadas por valores e objetivos.
 							</p>
 							</div>
-							<ul class="list--products">
+							<ul class="list--products list--products--social">
+								<!-- SOCIAL MEDIA BRANDING -->
 								<h4 class="list__title--products">
-									
+									Social Media Branding
 								</h4>
-							</ul>	
+									<li class="list__option--products">
+										Brand Persona
+									</li>
+									<li class="list__option--products">
+										Produção de Conteúdo
+									</li>
+									<li class="list__option--products">
+										Ads
+									</li>
+								<!-- SWAP! -->
+								<h4 class="list__title--products">
+									Swap!
+								</h4>
+									<li class="list__option--products">
+										SAC 2.0
+									</li>
+									<li class="list__option--products">
+										Monitoramento
+									</li>
+									<li class="list__option--products">
+										Lab Report
+									</li>
+								<!-- SEEDING -->
+								<h4 class="list__title--products">
+									Seeding
+								</h4>
+								<li class="list__option--products">
+									Campanhas
+								</li>
+								<li class="list__option--products">
+									Facebook Tabs
+								</li>
+							</ul>
 						</article>
 					</div>
 				</section>
@@ -319,9 +421,15 @@
 				<!-- Nossos Clientes -->
 				<section class="wrapper wrapper-clients">
 					<h2 class="title-basic title-basic_clients">
-						<span>Nossos</span><br>
+						<span class="title--opensans--italic">Nossos</span><br>
 						Clientes
 					</h2>
+					<div class="top__clients">
+						<h3 class="title__clients">
+							<span class="title--futurah">Mand</span><span class="title--opensans--italic">aram</span>
+							<br>Bem
+						</h3>
+					</div>
 					<!-- Flexbox Clients Logos -->
 					<article class="container__flexbox flexbox-clients clients">
 							<!-- Logo Intel -->
@@ -360,20 +468,31 @@
 				</section>
 				<!-- /Nossos Clientes -->
 			</main>
-			<footer class="infos-contact">
-				<div class="contact">
-					<h2 class="contact-title">
-						Curtiu?<br>
-						Entre em contato<br>
-						com a gente.
+			<footer class="contact__flexbox infos-contact">
+				<div class="wrapper--md contact">
+					<h2 class="titles__contact">
+						<span class="contact__titles--title1">Curtiu?</span><br>
+						<h3 class="contact__titles--title-main">
+							<span class="contact__titles--title2">Entre em</span>
+							<span class="contact__titles--title3">contato</span><br>
+							<span class="contact__titles--title4">com a</span> 
+							<span class="contact__titles--title2">gente.</span>
+						</h3>
 					</h2>
 				</div>
-				<div class="infos">
+				<div class="wrapper--md infos">
 					<ul class="infos-text">
-						<li class="infos-text_tel">T 11 2872-8010</li>
-						<li class="infos-text_address">Rua Loefgreen, 1279</li>
-						<li class="infos-text_zipcode">Sala 603 Vila Mariana</li>
-						<li class="infos-text_email">alma@almabranding.com.br</li>
+						<li class="infos-text_tel">
+							T 11 2872-8010
+						</li>
+						<li class="infos-text_address">
+							Rua Loefgreen, 1279</li>
+						<li class="infos-text_room">			Sala 603<br>Vila Mariana
+						</li>
+						<li class="infos-text_zipcode">			04040-031
+						</li>
+						<li class="infos-text_email">				alma@almabranding.com.br
+						</li>
 					</ul>
 					<nav class="footing-navbar">
 						<ul class="footing-navbar-social">

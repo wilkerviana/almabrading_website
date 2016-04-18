@@ -12,28 +12,52 @@
 }
 .box__title--track{
 	border: 7px solid #fff;
+	margin: 35px 0;
 	padding: 10px 0;
 	width: 100%;
 	text-align: center;
 	h3{
+		font-family: 'Futura Std--ExtraBold';
 		font-size: 28px;
 		margin: 0 auto;
 		width: 150px;
 	}
+	span{
+		font-family: 'Futura Std--Medium';
+	}
+	@media (min-width: 768px){
+		border: 8px solid #fff;
+		margin: 35px 55px;
+		padding: 165px 0 0;
+		height: 300px;
+		width: 300px;
+		h3{
+			font-size: 48px;
+			width: 245px;
+		}
+	}
+}
+.summary--process{
+	margin: 0 auto;
+	width: 100%;
+	@media (min-width: 768px){
+		width: 570px;
+	}
 }
 .summary__illustration--process{
-	margin: 35px -10px;
+	margin: 35px auto;
 	position: relative;
 	height: 215px;
-	width: 295px;
+	width: 280px;
 	@media (min-width: 768px){
-		margin: 50px 75px;
+		margin: 0 25px 80px;
 		height: 325px;
 		width: 440px;
 	}
 	span:before{
 		content: url(../images/track-cicle.png);
 		position: absolute;
+		width: 50%;
 		@media (min-width: 768px){
 			content: url(../images/track-cicle_md.png);
 		}
@@ -48,14 +72,37 @@
 		flex-direction: column;
 	}
 }
+.resume--process{
+	@media (min-width: 768px){
+		padding-right: 50px;
+		width: 300px;	
+	}
+	
+}
+.description--process{
+	@media (min-width: 768px){
+		width: 265px;
+	}
+}
 .resume__title--process{
 	color: $color-yellow;
-	margin: 35px auto;
+	font-family: 'gotham_boldregular';
+	font-size: 16px;
+	line-height: 22px;
+	margin: 0 auto 30px;
+	text-transform: uppercase;
 }
 .description--process--track{
-	margin: 35px auto;
+	font-family: 'gotham_bookregular';
+	font-size: 13px;
+	line-height: 22px;
+	margin: 0 auto 35px;
+	padding-right: 5px;
+	text-transform: uppercase;
+	@media (min-width: 768px){
+		text-transform: none;
+	}
 }
-
 .infos-contact{
 	position: relative;
 	&:before{
