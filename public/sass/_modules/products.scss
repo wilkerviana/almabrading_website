@@ -22,6 +22,14 @@
 	margin: 35px auto;
 	font-size: 32px;
 	text-transform: uppercase;
+	@media (min-width: 1280px){
+		margin: 35px 0;
+	}
+}
+.wrapper--md--products{
+	@media (min-width: 1280px){
+		width: 710px;
+	}	
 }
 .box__titles{
 	margin: 35px auto;
@@ -70,12 +78,18 @@
 .products--text{
 	font-family: 'gotham_bookregular';
 	line-height: 26px;
+	@media (min-width: 1280px){
+		margin: 35px 0;
+	}
 }
 .resume--products{
 	font-family: 'gotham_bookregular';
 	font-size: 14px;
 	line-height: 20px;
 	margin-top: 20px;
+	@media (min-width: 1280px){
+		display: none;
+	}
 }
 .list--products{
 	display: none;
@@ -85,11 +99,29 @@
 		width: 300px;
 		list-style: none;
 	}
+	@media (min-width: 1280px){
+		display: none;
+	}
 }
 .subtitle--products{
 	color: $color-yellow;
 	font-family: 'Futura Std--ExtraBold';
 	text-transform: uppercase;
+	@media (min-width: 1280px) {
+		border: 6px solid #fff;
+		height: 140px;
+		width: 140px;
+		h4{
+			color: #fff;
+			font-family: 'gotham_boldregular';
+			font-size: 32px;
+			padding: 25% 5%;
+			letter-spacing: 3px;
+			text-align: center;
+			width: 100%;
+			word-wrap: break-word;
+		}
+	}
 }
 .summary--products{
 	margin: 20px auto;
@@ -98,12 +130,17 @@
 		padding-right: 50px; 
 		width: 280px;
 	}
+	@media (min-width: 1280px){
+		margin: 0;
+		width: 140px;
+	}
 }
 .list__title--products{
 	color: $color-yellow;
 	font-family: 'gotham_blackregular';
 	margin: 5px 0 0;
 	text-transform: uppercase;
+	margin: 20px 0 10px;
 }
 .list__option--products{
 	font-size: 15px;

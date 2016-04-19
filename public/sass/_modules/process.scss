@@ -36,12 +36,26 @@
 			width: 245px;
 		}
 	}
+	@media (min-width: 1280px){
+		margin: 35px auto;
+		padding: 25px 0 0;
+		height: 250px;
+		width: 250px;
+		h3{
+			font-size: 36px;
+			width: 180px;
+		}
+	}
 }
 .summary--process{
 	margin: 0 auto;
+	position: relative;
 	width: 100%;
 	@media (min-width: 768px){
 		width: 570px;
+	}
+	@media (min-width: 1280px){
+		width: 100%;
 	}
 }
 .summary__illustration--process{
@@ -51,6 +65,11 @@
 	width: 280px;
 	@media (min-width: 768px){
 		margin: 0 25px 80px;
+		height: 325px;
+		width: 440px;
+	}
+	@media (min-width: 1280px){
+		margin: 0 0 80px;
 		height: 325px;
 		width: 440px;
 	}
@@ -70,6 +89,10 @@
 	}
 	@media (min-width: 1280px){
 		flex-direction: column;
+		position: absolute;
+		right: 110px;
+		top: 460px;
+		width: 400px;
 	}
 }
 .resume--process{

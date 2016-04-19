@@ -17,6 +17,9 @@
 		border: 0;
 		margin: -100px 0 0;
 	}
+	@media (min-width: 1280px){
+		margin: 100px 0 0;
+	}
 }
 .page_header__brand__logo{
 	margin: 100px 25px 30px;
@@ -62,6 +65,11 @@
 		height: 300px;
 		width: 300px;
 	}
+	@media (min-width: 1280px){
+		margin: 0 100px;
+		height: 290px;
+		width: 290px;
+	}
 }
 .page_header__titles--experience{
 	font-family: 'Futura Std--Bold';
@@ -92,18 +100,32 @@
 	@media (min-width: 768px){
 		margin-left: 280px;
 	}
+	@media (min-width: 1280px){
+		margin: -95px 0 0 665px;
+	}
 }
 .page_header__title--emotional{
-	font-family: 'Futura Std--ExtraBold';
 	font-size: 42px;
+	font-family: 'Futura Std--ExtraBold';
 	font-weight: 800;
+	@media (min-width: 768px){
+		font-size: 62px;
+		line-height: 60px;
+		width: 420px;
+	}
 	.title--futura{
 		font-family: 'Futura Std--Light';
 		font-weight: 300;
 	}
 }
 .page_header__text--emotional{
-	font-family: 'gotham_mediumregular';
-	line-height: 21px;
+	font-family: 'gotham_bookregular';
+	font-size: 13px;
+	line-height: 20px;
 	padding: 35px 10px 35px 0;
+	@media (min-width: 768px){
+		font-size: 16px;
+		line-height: 28px;
+		width: 380px;
+	}
 }

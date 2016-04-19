@@ -5,6 +5,10 @@
 		right: 100px;
 		top: 45px;
 	}
+	@media (min-width: 1280px) {
+		right: 340px;
+		top: 75px;
+	}
 }
 .top__clients{
 	position: relative;
@@ -21,6 +25,9 @@
 			height: 250px;
 			width: 250px;
 		}
+		@media (min-width: 1280px){
+			left: 600px;
+		}
 	}
 }
 .title__clients{
@@ -33,6 +40,11 @@
 	.title--futurah{
 		font-family: 'Futura Std--Heavy';
 	}
+	@media (min-width: 1280px){
+		top: 50px;
+		left: 400px;
+		text-align: right;
+	}
 }
 .flexbox-clients{
 	@include flex-wrap (wrap);
@@ -43,6 +55,10 @@
 	@media (min-width: 768px){
 		padding: 400px 0 0;
 		width: 560px;
+	}
+	@media (min-width: 1280px){
+		position: absolute;
+		top: -300px;
 	}
 }
 .logos-clients{

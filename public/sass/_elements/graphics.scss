@@ -64,6 +64,10 @@
 		left: 60px;
 		top: 275px;
 	}
+	@media (min-width: 1280px){
+		left: 400px;
+		top: 115px;
+	}
 }
 
 .background-art_brain{
@@ -71,6 +75,10 @@
 	left: 295px;
 	top: 1970px;
 	z-index: -888;
+	@media (min-width: 1280px){
+		left: 700px;
+		top: 1300px;
+	}
 	.brain_blue:before{
 		content: url(../images/arts/brain_blue.png);
 		position: absolute;
@@ -97,6 +105,10 @@
 	left: 100px;
 	top: 3050px;
 	z-index: -888;
+	@media (min-width: 1280px){
+		left: 250px;
+		top: 2000px;
+	}
 	.eye_blue:before{
 		content: url(../images/arts/eye_blue.png);
 		position: absolute;
@@ -123,6 +135,10 @@
 	left: 230px;
 	top: 4500px;
 	z-index: -888;
+	@media (min-width: 1280px){
+		top: 3200px;
+		left: 800px;
+	}
 	.mouth_blue:before{
 		content: url(../images/arts/mouth_blue.png);
 		position: absolute;
@@ -149,6 +165,9 @@
 	right: 230px;
 	bottom: 400px;
 	z-index: -888;
+	@media (min-width: 1280px){
+		right: 550px;
+	}
 	.ear_blue:before{
 		content: url(../images/arts/ear_blue.png);
 		position: absolute;
