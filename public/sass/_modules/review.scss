@@ -111,8 +111,9 @@
 }
 .resume__icon{
 	position: relative;
-	.resume__icon--branding{
+	.resume__icon--branding:before{
 		content: url(../images/icons/essence_branding.png);
+		position: absolute;
 		padding: 20px;
 		@media (min-width: 1280px){
 			content: url(../images/icons/essence_branding__xs.png);	
@@ -120,8 +121,9 @@
 		}
 	}
 
-	.resume__icon--intelligence{
+	.resume__icon--intelligence:before{
 		content: url(../images/icons/essence_intelligence.png);
+		position: absolute;
 		padding: 15px 20px;
 		@media (min-width: 1280px){
 			content: url(../images/icons/essence_intelligence__xs.png);
@@ -129,8 +131,9 @@
 		}
 	}
 
-	.resume__icon--social{
+	.resume__icon--social:before{
 		content: url(../images/icons/essence_social.png);
+		position: absolute;
 		padding: 18px;
 		@media (min-width: 1280px){
 			content: url(../images/icons/essence_social__xs.png);

@@ -28,16 +28,26 @@
 		margin: 100px 0 0;
 		width: 170px;
 	}
-	span{
+	span:before{
 		content: url(../images/brand.png);
 		@media (min-width: 768px){
 			content: url(../images/brand-md.png);
+			position: absolute;
+			top: 0;
+		}
+		@media (min-width: 1280px){
+			content: url(../images/brand-md.png);
+			position: absolute;
+			top: 150px;
 		}
 	}
 }
 .brand__tags{
 	list-style: none;
 	@media (min-width: 768px){
+		margin: 0px 0 0 175px;
+	}
+	@media (min-width: 1280px){
 		margin: -50px 0 0 175px;
 	}
 }

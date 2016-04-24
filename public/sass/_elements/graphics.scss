@@ -106,8 +106,8 @@
 	top: 3050px;
 	z-index: -888;
 	@media (min-width: 1280px){
-		left: 250px;
-		top: 2000px;
+		left: 200px;
+		top: 2100px;
 	}
 	.eye_blue:before{
 		content: url(../images/arts/eye_blue.png);
@@ -133,11 +133,11 @@
 .background-art_mouth{
 	position: absolute;
 	left: 230px;
-	top: 4500px;
+	top: 4800px;
 	z-index: -888;
 	@media (min-width: 1280px){
-		top: 3200px;
-		left: 800px;
+		top: 80px;
+		left: 680px;
 	}
 	.mouth_blue:before{
 		content: url(../images/arts/mouth_blue.png);

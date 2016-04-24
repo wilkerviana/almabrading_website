@@ -27,3 +27,10 @@ $color-orange: 	#f7941e;
       -ms-flex-wrap: $wrap;
           flex-wrap: $wrap;
 }
+//Mixin Flexbox-None
+@mixin flexblock {
+  -webkit-display: block;
+     -moz-display: block;
+      -ms-display: block;
+          display: block;
+}

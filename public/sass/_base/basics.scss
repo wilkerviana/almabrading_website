@@ -40,6 +40,9 @@ body{
 	margin: 0 auto;
 	width: 100%;
 }
+.wrapper{
+
+}
 .wrapper--md{
 	margin: 0 auto;
 	width: 240px;
@@ -55,6 +58,32 @@ body{
 		position: relative;
 		height: 400px;
 	}
+}
+.marker{
+	color: $color-yellow;
+	font-family: 'gotham_boldregular';
+	font-size: 16px;
+	line-height: 20px;
+	padding: 25px 0 0;
+	text-transform: uppercase;
+	span{
+		font-style: italic;
+	}
+}
+.marker--opensans{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 200;
+	letter-spacing: 2px;
+}
+.marker--opensans--italic{
+	font-family: 'Open Sans', sans-serif;
+	font-style: italic;
+	font-weight: 200;
+	letter-spacing: 2px;
+}
+.resume{
+	font-family: 'gotham_bookregular';
+	line-height: 26px;
 }
 .box__title{
 	border: 8px solid #fff;
@@ -73,29 +102,7 @@ body{
 		}
 	}
 }
-.title--opensans{
-	font-family: 'Open Sans', sans-serif;
-	font-weight: 200;
-	letter-spacing: 2px;
-}
-.title--opensans--italic{
-	font-family: 'Open Sans', sans-serif;
-	font-style: italic;
-	font-weight: 200;
-	letter-spacing: 2px;
-}
 
-.title-basic{
-	color: $color-yellow;
-	font-family: 'gotham_boldregular';
-	font-size: 16px;
-	line-height: 20px;
-	padding: 25px 0 0;
-	text-transform: uppercase;
-	span{
-		font-style: italic;
-	}
-}
 
 // Footer
 
