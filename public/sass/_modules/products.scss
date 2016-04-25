@@ -7,11 +7,14 @@
 			display: none;
 		}
 	}
+	@media (min-width: 1280px) {
+		margin: 175px 0 75px;
+	}
 }
 .entry-pillars{
 	@media (min-width: 768px){
 		@include flexbox;
-		margin: 0 0 55px;
+		margin: 100px 0 55px;
 	}
 	@media (min-width: 1280px) {
 		margin: 0;
@@ -100,7 +103,7 @@
 .intro{
 	@media (min-width: 768px) {
 		position: relative;
-		width: 340px;
+		width: 275px;
 	}
 	@media (min-width: 1280px) {
 		width: 100%;
@@ -128,6 +131,9 @@
 	}
 }
 .service__list{
+	@media (min-width: 768px) {
+		width: 300px;
+	}
 	@media (min-width: 1280px) {
 		position: absolute;
 		left: -800px;
@@ -161,7 +167,7 @@
 		letter-spacing: 1px;
 		margin: 40px auto;
 		text-align: center;
-		width: 90px;
+		width: 100px;
 	}
 	&:before{
 		@media (min-width: 768px){
@@ -244,9 +250,6 @@
 	}
 }
 
-
-
-
 .currentAnimate{
 	@media (min-width: 1280px) {
 		height: 465px;
@@ -285,6 +288,9 @@
 			width: 320px;
 			-webkit-transition: left 2.2s ease-in-out;
 			transition: left 2.2s ease-in-out;
-		}	
+		}
+		.intro__resume{
+			left: 80px;
+		}
 	}
 }

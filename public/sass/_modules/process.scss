@@ -10,6 +10,11 @@
 		width: 30px;
 	}
 }
+.wrapper-process{
+	@media (min-width: 768px) {
+		margin-top: 75px;
+	}
+}
 .box__title--track{
 	border: 7px solid #fff;
 	margin: 35px 0;
@@ -135,5 +140,8 @@
 		top: 0;
 		height: 4px;
 		width: 30px;
+	}
+	@media (min-width: 1280px) {
+		margin-top: 180px
 	}
 }

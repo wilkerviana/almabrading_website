@@ -91,12 +91,12 @@
 .background-art_brain {
   position: absolute;
   left: 295px;
-  top: 1970px;
+  top: 45px;
   z-index: -888; }
   @media (min-width: 1280px) {
     .background-art_brain {
-      left: 700px;
-      top: 1300px; } }
+      left: 550px;
+      top: 155px; } }
   .background-art_brain .brain_blue:before {
     content: url(../images/arts/brain_blue.png);
     position: absolute;
@@ -116,13 +116,13 @@
 
 .background-art_eye {
   position: absolute;
-  left: 100px;
-  top: 3050px;
+  left: 70px;
+  top: -50px;
   z-index: -888; }
   @media (min-width: 1280px) {
     .background-art_eye {
-      left: 200px;
-      top: 2100px; } }
+      left: 50px;
+      top: -20px; } }
   .background-art_eye .eye_blue:before {
     content: url(../images/arts/eye_blue.png);
     position: absolute;
@@ -142,8 +142,8 @@
 
 .background-art_mouth {
   position: absolute;
-  left: 230px;
-  top: 4800px;
+  left: 160px;
+  top: 100px;
   z-index: -888; }
   @media (min-width: 1280px) {
     .background-art_mouth {
@@ -168,12 +168,12 @@
 
 .background-art_ear {
   position: absolute;
-  right: 230px;
-  bottom: 400px;
+  right: 200px;
+  top: -35px;
   z-index: -888; }
   @media (min-width: 1280px) {
     .background-art_ear {
-      right: 550px; } }
+      right: 420px; } }
   .background-art_ear .ear_blue:before {
     content: url(../images/arts/ear_blue.png);
     position: absolute;
@@ -822,6 +822,10 @@ body {
     height: 4px;
     width: 30px; }
 
+@media (min-width: 768px) {
+  .wrapper-process {
+    margin-top: 75px; } }
+
 .box__title--track {
   border: 7px solid #fff;
   margin: 35px 0;
@@ -939,6 +943,9 @@ body {
     top: 0;
     height: 4px;
     width: 30px; }
+  @media (min-width: 1280px) {
+    .infos-contact {
+      margin-top: 180px; } }
 
 .wrapper--pillars {
   margin: 0 0 75px;
@@ -946,6 +953,9 @@ body {
   @media (min-width: 768px) {
     .wrapper--pillars .marker {
       display: none; } }
+  @media (min-width: 1280px) {
+    .wrapper--pillars {
+      margin: 175px 0 75px; } }
 
 @media (min-width: 768px) {
   .entry-pillars {
@@ -953,7 +963,7 @@ body {
     -moz-display: flex;
     -ms-display: flex;
     display: flex;
-    margin: 0 0 55px; } }
+    margin: 100px 0 55px; } }
 @media (min-width: 1280px) {
   .entry-pillars {
     margin: 0; } }
@@ -1040,7 +1050,7 @@ body {
 @media (min-width: 768px) {
   .intro {
     position: relative;
-    width: 340px; } }
+    width: 275px; } }
 @media (min-width: 1280px) {
   .intro {
     width: 100%; } }
@@ -1066,6 +1076,9 @@ body {
       position: absolute;
       left: -800px; } }
 
+@media (min-width: 768px) {
+  .service__list {
+    width: 300px; } }
 @media (min-width: 1280px) {
   .service__list {
     position: absolute;
@@ -1097,7 +1110,7 @@ body {
     letter-spacing: 1px;
     margin: 40px auto;
     text-align: center;
-    width: 90px; } }
+    width: 100px; } }
 @media (min-width: 768px) {
   .intro__title--branding:before {
     content: url(../images/icons/icon_branding-yellow.png);
@@ -1199,7 +1212,9 @@ body {
       left: 90px;
       width: 320px;
       -webkit-transition: left 2.2s ease-in-out;
-      transition: left 2.2s ease-in-out; } }
+      transition: left 2.2s ease-in-out; }
+    .currentAnimate .intro__resume {
+      left: 80px; } }
 
 @media (min-width: 768px) {
   .title-basic_clients {
@@ -1212,8 +1227,12 @@ body {
     top: 75px; } }
 
 .top__clients {
+  display: none;
   position: relative;
   width: 100%; }
+  @media (min-width: 768px) {
+    .top__clients {
+      display: block; } }
   .top__clients:before {
     display: none; }
     @media (min-width: 768px) {
@@ -1256,11 +1275,12 @@ body {
   width: 280px; }
   @media (min-width: 768px) {
     .clients {
-      padding: 400px 0 0;
+      padding: 360px 0 0;
       width: 560px; } }
   @media (min-width: 1280px) {
     .clients {
       position: absolute;
+      padding: 165px 0 0;
       top: 0; } }
 
 .logos-clients {

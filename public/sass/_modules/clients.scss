@@ -11,8 +11,12 @@
 	}
 }
 .top__clients{
+	display: none;
 	position: relative;
 	width: 100%;
+	@media (min-width: 768px) {
+		display: block;
+	}
 	&:before{
 		display: none;
 		@media (min-width: 768px){
@@ -53,11 +57,12 @@
 	margin: 40px auto 120px;
 	width: 280px;
 	@media (min-width: 768px){
-		padding: 400px 0 0;
+		padding: 360px 0 0;
 		width: 560px;
 	}
 	@media (min-width: 1280px){
 		position: absolute;
+		padding: 165px 0 0;
 		top: 0;
 	}
 }
