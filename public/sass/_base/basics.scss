@@ -179,6 +179,16 @@ body{
 }
 .footing-navbar{
 	margin: 35px auto;
+	.number{
+		display: none;
+		@media (min-width: 1280px) {
+			color: #fff200;
+			display: inline-block;
+			font-family: 'gotham_lightregular';
+			font-size: 14px;
+			margin: 0 10px;
+		}	
+	}
 }
 .footing-navbar-social{
 	list-style: none;

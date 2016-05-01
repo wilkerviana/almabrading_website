@@ -15,7 +15,7 @@
 	width: 280px;
 	@media (min-width: 768px){
 		border: 0;
-		margin: -100px 0 0;
+		margin: -100px 0 0 20px;
 	}
 	@media (min-width: 1280px){
 		margin: 100px 0 0;
@@ -71,7 +71,7 @@
 	@media (min-width: 768px){
 		display: block;
 		border: 10px solid #fff;
-		margin: 150px 0;
+		margin: 110px 0 180px;
 		height: 300px;
 		width: 300px;
 	}
@@ -104,11 +104,42 @@
 	margin: 0 10px;
 }
 
+// Heart Animation
+.mini_heart{
+	display: none;
+	@media (min-width: 768px) {
+		display: block;
+		margin: 0 auto;
+		position: relative;
+		height: 50px;
+		width: 32px;
+		&:after{
+			content: "";
+			background: #fff;
+			bottom: 0;
+			height: 4px;
+			width: 30px;
+			position: absolute;
+		}
+	}	
+}
+@keyframes miniheart{
+	0%{top: 5px;}
+	35%{top: 12px;}
+	60%{top: 18px;}
+	80%{top: 10px;}
+	100%{top: 7px;}
+}
+.mini_heart img{
+	position: absolute;
+	left: 6px;
+	animation: miniheart .9s linear infinite;
+}
 // Branding com emoção
 .page_header--emotional{
 	text-transform: uppercase;
 	@media (min-width: 768px){
-		margin-left: 280px;
+		margin: 0 0 20px 300px;
 	}
 	@media (min-width: 1280px){
 		margin: -95px 0 0 665px;

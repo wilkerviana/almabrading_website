@@ -1,6 +1,7 @@
 // Nossos produtos
 .wrapper--pillars{
-	margin: 0 0 75px;
+	position: relative;
+	margin: 100px 0 75px;
 	width: 100%;
 	@media (min-width: 768px) {
 		.marker{
@@ -9,6 +10,21 @@
 	}
 	@media (min-width: 1280px) {
 		margin: 175px 0 75px;
+	}
+	&:after{
+		content: url(../images/arrow_down_xs.png);
+		position: absolute;
+		bottom: -75px;
+		left: 130px;
+		@media (min-width: 768px) {
+			display: none;
+		}
+		@media (min-width: 1280px) {
+			display: block;
+			content: url(../images/arrow_down.png);
+			bottom: -150px;
+			left: 250px;
+		}
 	}
 }
 .entry-pillars{
@@ -51,11 +67,24 @@
 	}
 }
 .box__title--pillars{
-	margin: 35px auto;
+	position: relative;
+	margin: 35px auto 100px;
 	font-size: 32px;
 	text-transform: uppercase;
 	@media (min-width: 1280px){
 		margin: 35px 0 0;
+	}
+	&:after{
+		content: url(../images/graphs/graph2.png);
+		position: absolute;
+		left: 35px;
+		bottom: -70px;
+		opacity: 0.5;
+		@media (min-width: 1280px) {
+			content: url(../images/graphs/graph5.png);
+			left: 45px;
+			bottom: -40px;
+		}
 	}
 }
 .box__titles{
@@ -229,7 +258,6 @@
 	}
 }
 .block-unit{
-	background: gray;
 	border: 6px solid #fff;
 	height: 150px;
 	width: 150px;
@@ -259,20 +287,20 @@
 		.intro__title--branding:before{
 			top: -15px;
 			left: 210px;
-			-webkit-transition: all 2.5s ease-in;
-			transition: all 2.5s ease-in;
+			-webkit-transition: top 1.8s ease-in;
+			transition: top 1.8s ease-in;
 		}
 		.intro__title--intelligence:before{
 			top: -15px;
 			left: 260px;
-			-webkit-transition: all 2.5s ease-in;
-			transition: all 2.5s ease-in;
+			-webkit-transition: top 1.8s ease-in;
+			transition: top 1.8s ease-in;
 		}
 		.intro__title--social:before{
 			top: -15px;
 			left: 165px;
-			-webkit-transition: all 2.5s ease-in;
-			transition: all 2.5s ease-in;
+			-webkit-transition: top 1.8s ease-in;
+			transition: top 1.8s ease-in;
 		}
 		.intro__title{
 			width: 250px;
@@ -286,11 +314,24 @@
 			position: absolute;
 			left: 90px;
 			width: 320px;
-			-webkit-transition: left 2.2s ease-in-out;
-			transition: left 2.2s ease-in-out;
+			-webkit-transition: left 2.2s ease-in;
+			transition: left 2.2s ease-in;
 		}
 		.intro__resume{
 			left: 80px;
+		}
+	}
+}
+.offAnimate{
+	@media (min-width: 1280px) {
+		height: 150px;
+		width: 150px;
+		-webkit-transition: all 1.2s ease-in-out;
+		transition: all 1.2s ease-in-out;
+		.intro__resume{
+			left: -1000px;
+			-webkit-transition: all 0.8s ease-in-out;
+			transition: all 0.8s ease-in-out;
 		}
 	}
 }

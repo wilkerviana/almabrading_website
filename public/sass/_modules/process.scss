@@ -130,6 +130,18 @@
 	@media (min-width: 768px){
 		text-transform: none;
 	}
+	&:after{
+		content: url(../images/graphs/graph4.png);
+		position: absolute;
+		left: 0;
+		bottom: -75px;
+		@media (min-width: 768px) {
+			left: 300px;
+		}
+		@media (min-width: 1280px) {
+			left: 0;
+		}
+	}
 }
 .infos-contact{
 	position: relative;
