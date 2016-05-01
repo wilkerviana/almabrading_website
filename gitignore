@@ -1,0 +1,6 @@
+# Ignorar conteúdo de ambiente de produção
+dist
+#Ignorar caches do projeto
+.DS_Store
+.sass-cache/
+.tmp/
