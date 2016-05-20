@@ -94,19 +94,23 @@
 	width: 158px;
 	.title--1{
 		font-family: 'Futura Std--Condensed';
-		letter-spacing: 11px;
+		letter-spacing: 8px;
 	}
 	.title--2{
 		font-family: 'Futura Std--ExtraBold';
-		letter-spacing: 8px;
+		letter-spacing: 5px;
 	}
 	.title--3{
 		font-family: 'Open Sans', sans-serif;
 		font-style: italic;
 		font-weight: 100;
 		line-height: 20px;
-		letter-spacing: 50px;
+		letter-spacing: 58px;
 		text-align: right;
+		@media (min-width: 1280px) {
+			letter-spacing: 42px;
+			padding-left: 10px;
+		}
 	}
 	.title--4{
 		@extend .title--3;
@@ -126,7 +130,16 @@
 	}
 	@media (min-width: 1280px) {
 		margin: 30px 0 0;
-		width: 500px;
+		width: 750px;
+		font-size: 18px;
+		line-height: 30px;
+	}
+}
+.over__resume--pillars{
+	display: none;
+	@media (min-width: 1280px) {
+		display: block;
+		color: #fff200;
 	}
 }
 .intro{

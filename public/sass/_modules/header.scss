@@ -68,6 +68,7 @@
 // Unificamos Experiências 
 .page_header--experience{
 	display: none;
+	overflow: hidden;
 	@media (min-width: 768px){
 		display: block;
 		border: 10px solid #fff;
@@ -80,13 +81,32 @@
 		height: 290px;
 		width: 290px;
 	}
+	.slider--random{
+		padding-top: 170px;
+		position: relative;
+	}
+	.slider__titles{
+		@include flexbox;
+		position: absolute;
+		animation: sliderTitles 4s steps(1) infinite;
+	}
+}
+@keyframes sliderTitles{
+	0%{left: 0;}
+	30%{left: -270px;}
+	60%{left: -510px;}
 }
 .page_header__titles--experience{
 	font-family: 'Futura Std--Bold';
-	padding: 200px 50px 0;
+	font-size: 30px;
+	line-height: 38px;
+	padding: 0 35px;
 	text-transform: uppercase;
+	display: inline-block;
+	span{
+		font-family: 'Futura Std--Book';
+	}
 }
-
 // Header Navbar Social
 .page_header__navegation{ 
 	position: relative;
