@@ -45,7 +45,7 @@
 		}
 	}
 	@media (min-width: 1280px){
-		margin: 35px auto;
+		margin: 0 auto;
 		padding: 25px 0 0;
 		height: 250px;
 		width: 250px;
@@ -77,9 +77,9 @@
 		width: 440px;
 	}
 	@media (min-width: 1280px){
-		margin: 0 0 80px;
-		height: 325px;
-		width: 440px;
+		margin: -30px 0 80px 60px;
+		height: 290px;
+		width: 400px;
 	}
 	span:before{
 		content: url(../images/track-cicle.png);
@@ -87,6 +87,9 @@
 		width: 50%;
 		@media (min-width: 768px){
 			content: url(../images/track-cicle_md.png);
+		}
+		@media (min-width: 1280px) {
+			content: url(../images/track-cicle_lg.png);
 		}
 	}
 }
@@ -98,8 +101,8 @@
 	@media (min-width: 1280px){
 		flex-direction: column;
 		position: absolute;
-		right: 110px;
-		top: 460px;
+		right: 115px;
+		top: 380px;
 		width: 400px;
 	}
 }
@@ -122,6 +125,9 @@
 	line-height: 22px;
 	margin: 0 auto 30px;
 	text-transform: uppercase;
+	@media (min-width: 1280px) {
+		margin: 0 auto 15px;
+	}
 }
 .description--process--track{
 	font-family: 'gotham_bookregular';
@@ -157,6 +163,6 @@
 		width: 30px;
 	}
 	@media (min-width: 1280px) {
-		margin-top: 180px
+		margin-top: 130px
 	}
 }

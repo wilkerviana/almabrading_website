@@ -5,8 +5,11 @@
 	line-height: 20px;
 	text-transform: uppercase;
 	@media (min-width: 1280px){
+		font-size: 15px;
 		width: 200px;
 		position: absolute;
+		left: 20px;
+		letter-spacing: 1px;
 	}
 }
 .container__subtitle--spirit{
@@ -18,8 +21,10 @@
 	text-transform: uppercase;
 	@media (min-width: 1280px){
 		font-size: 36px;
-		margin: 0 0 0 220px;
-		width: 340px;
+		height: 84px;
+		line-height: 38px;
+		margin: 0 0 0 205px;
+		width: 320px;
 	}
 	.title--1{
 		font-family: 'Open Sans', sans-serif;
@@ -44,6 +49,9 @@
 		top: 55px;
 		@media (min-width: 1280px){
 			font-size: 48px;
+			top: 45px;
+			font-style: normal;
+			letter-spacing: 0;
 		}
 	}
 }
@@ -55,7 +63,7 @@
 		margin: 100px auto;
 	}
 	@media (min-width: 1280px) {
-		margin: 50px 0 0;
+		margin: 25px 0 0;
 	}
 }
 .container__summary--spirit{
@@ -66,8 +74,9 @@
 	width: 540px;
 	@media (min-width: 1280px){
 		font-size: 14px;
+		line-height: 20px;
 		margin: 0;
-		width: 390px;
+		width: 410px;
 		position: absolute;
 	}
 }
@@ -91,13 +100,30 @@
 	@media (min-width: 1280px){
 		@include flex-wrap (nowrap);
 		flex-direction: row;
-		width: 1000px;
+		width: 1040px;
+		margin: 0 auto;
 	}
 }
 .container__resume--spirit{
 	margin: 50px auto;
 	@media (min-width: 1280px){
 		width: 300px;
+		margin: 50px 30px;
+	}
+}
+.resume--spirit--branding{
+	@media (min-width: 1280px) {
+		margin: 50px 10px;	
+	}
+}
+.resume--spirit--intelligence{
+	@media (min-width: 1280px) {
+		margin: 50px 0 0 70px;	
+	}
+}
+.resume--spirit--social{
+	@media (min-width: 1280px) {
+		margin: 50px 0 0 43px;	
 	}
 }
 .resume__icon{
@@ -107,7 +133,7 @@
 	@media (min-width: 1280px){
 		border: 3px solid #fff;
 		height: 50px;
-		width: 50px;
+		width: 80px;
 	}
 }
 .resume__icon{
@@ -118,7 +144,7 @@
 		padding: 20px;
 		@media (min-width: 1280px){
 			content: url(../images/icons/essence_branding__xs.png);	
-			padding: 10px 8px;
+			padding: 10px;
 		}
 	}
 
@@ -128,7 +154,7 @@
 		padding: 15px 20px;
 		@media (min-width: 1280px){
 			content: url(../images/icons/essence_intelligence__xs.png);
-			padding: 6px 8px;
+			padding: 6px 10px;
 		}
 	}
 
@@ -138,7 +164,7 @@
 		padding: 18px;
 		@media (min-width: 1280px){
 			content: url(../images/icons/essence_social__xs.png);
-			padding: 8px 6px;
+			padding: 8px;
 		}
 	}
 }
@@ -149,7 +175,9 @@
 	line-height: 27px;
 	width: 390px;
 	@media (min-width: 1280px){
-		margin: 0 0 0 20px;
-		width: 250px;
+		font-size: 14px;
+		margin: 55px 0 0;
+		line-height: 22px;
+		width: none;
 	}
 }

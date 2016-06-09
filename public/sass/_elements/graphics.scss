@@ -55,6 +55,9 @@
 		left: -7px;
 		top: -7px;
 		animation: shake_blue 1s infinite ease-out;
+		@media (min-width: 1280px) {
+			content: url(../images/arts/heart_blue_lg.png);
+		}
 	}
 	.heart_red:before{
 		content: url(../images/arts/heart_red.png);
@@ -62,30 +65,36 @@
 		left: -2px;
 		top: -2px;
 		animation: shake_red 1s infinite ease-out;
+		@media (min-width: 1280px) {
+			content: url(../images/arts/heart_red_lg.png);
+		}
 	}
 	.heart_black:before{
 		content: url(../images/arts/heart.png);
 		position: absolute;
 		animation: shake_black 1s infinite ease-out;
+		@media (min-width: 1280px) {
+			content: url(../images/arts/heart_lg.png);
+		}
 	}
 	@media (min-width: 768px){
 		left: 60px;
 		top: 275px;
 	}
 	@media (min-width: 1280px){
-		left: 300px;
+		left: 320px;
 		top: 115px;
 	}
 }
 
 .background-art_brain{
 	position: absolute;
-	left: 295px;
-	top: 45px;
+	left: 290px;
+	top: 35px;
 	z-index: -888;
 	@media (min-width: 1280px){
-		left: 550px;
-		top: 155px;
+		left: 530px;
+		top: 130px;
 	}
 	.brain_blue:before{
 		content: url(../images/arts/brain_blue.png);
@@ -114,8 +123,8 @@
 	top: -50px;
 	z-index: -888;
 	@media (min-width: 1280px){
-		left: 50px;
-		top: -20px;
+		left: 60px;
+		top: -30px;
 	}
 	.eye_blue:before{
 		content: url(../images/arts/eye_blue.png);
@@ -174,7 +183,7 @@
 	top: -35px;
 	z-index: -888;
 	@media (min-width: 1280px){
-		right: 420px;
+		right: 460px;
 	}
 	.ear_blue:before{
 		content: url(../images/arts/ear_blue.png);
@@ -207,6 +216,7 @@
 		left: 50px;
 	}
 	@media (min-width: 1280px){
+		top: 0;
 		left: 120px;
 	}
 }
@@ -267,6 +277,6 @@
 	}
 	@media (min-width: 1280px) {
 		bottom: 0;
-		left: -450px;
+		left: -390px;
 	}
 }

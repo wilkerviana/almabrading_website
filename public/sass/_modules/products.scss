@@ -33,7 +33,7 @@
 		margin: 100px 0 55px;
 	}
 	@media (min-width: 1280px) {
-		margin: 0;
+		margin: 0 0 0 15px;
 	}
 }
 .pillars{
@@ -62,7 +62,7 @@
 		display: none;
 		@media (min-width: 768px) {
 			display: block;
-			margin: 10px 20px 0;
+			margin: 15px 40px 0;
 		}
 	}
 }
@@ -72,7 +72,7 @@
 	font-size: 32px;
 	text-transform: uppercase;
 	@media (min-width: 1280px){
-		margin: 35px 0 0;
+		margin: 45px 0 0;
 	}
 	&:after{
 		content: url(../images/graphs/graph2.png);
@@ -129,9 +129,9 @@
 		width: 450px;
 	}
 	@media (min-width: 1280px) {
-		margin: 30px 0 0;
+		margin: 40px 0 0 25px;
 		width: 750px;
-		font-size: 18px;
+		font-size: 17px;
 		line-height: 30px;
 	}
 }
@@ -267,7 +267,7 @@
 .grid-blocks{
 	@media (min-width: 1280px) {
 		@include flexbox;
-		padding-left: 240px;	
+		padding-left: 255px;	
 	}
 }
 .block-unit{
