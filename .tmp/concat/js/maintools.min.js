@@ -1,4 +1,14 @@
 var block = function(){
+	$(window).scroll(function() {
+		if ($(this).scrollTop() > 1600 && ($(this).scrollTop() < 1700)) {
+			$('.block-unit-animate-branding').removeClass('offAnimate').addClass('currentAnimate');
+			$('.block-unit-animate-branding').siblings().mouseover(function(){
+				$('.block-unit-animate-branding').addClass('offAnimate').removeClass('currentAnimate');
+			});
+			var childAnimate = $('.currentAnimate').find('.intro__resume , .service__list');
+			$(childAnimate).addClass('currentChild');
+		}
+	});
 	var blockAnimate = $('.block-unit-animate');
 	$(blockAnimate).mouseover(function(){
 		$(this).removeClass('offAnimate').addClass('currentAnimate');

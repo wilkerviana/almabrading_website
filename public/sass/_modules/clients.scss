@@ -88,7 +88,12 @@
 	display: none;
 	@media (min-width: 768px) {
 		display: block;
-		margin: 45px 0;
+		margin: 50px 0;
+		width: 130px;
+	}
+	@media (min-width: 1280px) {
+		margin: 50px 10px;
+		width: 170px;	
 	}
 }
 
@@ -97,15 +102,30 @@
 	@media (min-width: 768px) {
 		margin: 50px 5px;
 	}
+	@media (min-width: 1280px) {
+		width: 90px;
+		margin: 65px 0 0 80px;
+	}
 }
 .logos-clients_image__nivaa{
-	margin: 20px 5px;
+	margin: 20px 15px;
+	@media (min-width: 1280px) {
+		margin: 35px 5px 0 65px;
+		width: 105px;
+	}
 }
 .logos-clients_image__1100{
 	margin: 0 15px;
+	@media (min-width: 1280px) {
+		margin: 20px 0 0 50px;
+		width: 90px;
+	}
 }
 .logos-clients_image__sollo{
 	margin: 20px 5px;
+	@media (min-width: 1280px) {
+		width: 130px;
+	}
 }
 .logos-clients_image__agua{
 	margin: 15px 10px;
@@ -119,10 +139,22 @@
 		display: block;
 		margin: 30px 0;
 	}
+	@media (min-width: 1280px) {
+		margin: 20px 0 0 20px;
+		width: 145px;
+	}
 }
 .logos-clients_image__meta{
 	margin: 25px 5px;
+	@media (min-width: 1280px) {
+		margin: 30px 0 0 50px;
+		width: 100px;
+	}
 }
 .logos-clients_image__frei{
 	margin: 20px 7px;
+	@media (min-width: 1280px) {
+		margin: 10px 0 0 35px;
+		width: 135px;
+	}
 }

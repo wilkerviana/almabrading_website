@@ -192,11 +192,11 @@ body{
 .footing-navbar{
 	margin: 35px auto;
 	@media (min-width: 1280px) {
-		margin: 20px auto;
+		margin: 20px 2px;
 	}
 	.number{
 		display: none;
-		@media (min-width: 1280px) {
+		@media (min-width: 768px) {
 			color: #fff200;
 			display: inline-block;
 			font-family: 'gotham_lightregular';
@@ -210,5 +210,8 @@ body{
 }
 .footing-social_list{
 	display: inline-block;
-	margin: 2px 5px;
+	margin: 2px 4px;
+}
+.link__whatsapp{
+	text-decoration: none;
 }
