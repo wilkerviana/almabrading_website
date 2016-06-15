@@ -466,7 +466,7 @@ body {
 	font-family: 'gotham_boldregular';
 	font-size: 16px;
 	line-height: 20px;
-	padding: 25px 0 0;
+	padding: 25px 10px 0;
 	text-transform: uppercase;
 }
 
@@ -666,10 +666,9 @@ body {
 	color: #fff200;
 	font-size: 12px;
 	font-family: 'Open Sans', sans-serif;
-	font-style: italic;
 	font-weight: 300;
 	position: absolute;
-	top: 32px;
+	top: 36px;
 	left: 10px;
 }
 
@@ -834,6 +833,7 @@ body {
 	background: #fff;
 	position: absolute;
 	top: 0;
+	left: 10px;
 	height: 4px;
 	width: 30px;
 }
@@ -986,7 +986,7 @@ body {
 }
 
 .box__titles .title--4 {
-	padding-left: 65px;
+	margin-left: 60px;
 }
 
 .resume--pillars {
@@ -1669,7 +1669,7 @@ body {
 	font-size: 15px;
 	width: 200px;
 	position: absolute;
-	left: 20px;
+	left: 10px;
 	letter-spacing: 1px;
 }
 

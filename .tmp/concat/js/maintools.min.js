@@ -9,6 +9,11 @@ var block = function(){
 			$(childAnimate).addClass('currentChild');
 		}
 	});
+	$(window).scroll(function(){
+		if ($(this).scrollTop() > 350) {
+			$('.mini_heart').fadeOut(1100);
+		}
+	});
 	var blockAnimate = $('.block-unit-animate');
 	$(blockAnimate).mouseover(function(){
 		$(this).removeClass('offAnimate').addClass('currentAnimate');
